@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vts-navigator/sw.js', { scope: '/vts-navigator/' })})}
